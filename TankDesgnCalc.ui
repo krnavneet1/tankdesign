@@ -1,0 +1,3249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1255</width>
+    <height>4074</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Tanknumber_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>110</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tank number :</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Tanknumber">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>120</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Desingcode">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>290</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Desing code :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Tankspecficationdata_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>50</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tank specfication data :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Typeoftank_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>170</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Type of tank :</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Itemname">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>240</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heading">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>10</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Tank Design Data</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Typeoftank">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>180</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Tankspecficationdata">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>60</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Designcode">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>300</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Itemname_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>230</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Item name :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Emptyingrate_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>850</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Emptying rate :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heading_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>360</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Design Input Parameter</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Insidediameter">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>500</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Nominalcapacity_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>430</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nominal capacity :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>430</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>cubicmeter</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_7">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>850</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>cubicmeter per meter</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_9">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>990</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>(means 1 in 120)</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Emptyingrate">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>850</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>710</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>meter</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Nominalcapacity">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>440</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Htest_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>710</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Htest :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>500</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>meter</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="infillingrate">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>780</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Productdensity20C_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>920</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Product density @20C :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_8">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>920</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>kg per cubicmeter </string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Htest">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>710</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_6">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>780</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>cubicmeter per meter</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tankheight_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>570</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tank height :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="maximumfillingheight_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>640</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Maximum filling height :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Productdensity20C">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>920</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="infillingrate_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>780</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>In-filling rate:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Slopeatthebottom1_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>990</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Slope at the bottom 1:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Insidediameter_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>500</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Inside diameter :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Slopeatthebottom1">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>990</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_4">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>640</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>meter</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="maximumfillingheight">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>640</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_3">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>570</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>meter</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="tankheight">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>570</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Ringofsketchplate_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1350</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ring of sketch plate :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Roof_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1420</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Roof :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Roof">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>1420</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heading_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>1070</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Corrsion Allowance date</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Shellcourse1_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1140</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Shell (1st course) :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Shellcourse2_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1210</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Shell (2nd course) :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>1350</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_10">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>1140</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_14">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>1420</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_11">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>1210</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_12">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>1280</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Shellcourse1">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>1140</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Shellcourse2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>1210</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="bottom">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>1280</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Bottom">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1280</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bottom:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Ringofsketchplate">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>1350</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="IPDesignconditionKpag">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>1600</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="IPDesignconditionmmH2O">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>1600</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_18">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>1540</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>In KPa g</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="IPTestcondtionKpag">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>1760</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="IPOperatingconditionmmH2O">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>1680</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IPDesigncondition">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>1600</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Design condition :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heading_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>1490</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Internal Pressure</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="IPOperatingconditionKpag">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>1680</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IPOperatingcondition">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>1680</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Operating condition :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_19">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>1540</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>In mm H20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IPTestcondtion">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>1760</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Test condition :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="IPTestcondtionmmH2O">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>1760</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="EPDesigncondition">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>1950</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Design condition :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heading_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>1830</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>External Pressure</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="EPDesignconditionKpag">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>1950</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_21">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>1890</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>In KPa g</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_20">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>1890</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>In mm H20</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="EPOperatingconditionKpag">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>2030</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="EPOperatingcondition">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>2030</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Operating condition :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="EPOperatingconditionmmH2O">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>2030</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="EPDesignconditionmmH2O">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>1950</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="TempDesigncondition_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>2180</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Flashpoint">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>2400</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Flash point :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_26">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>2400</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Celsius</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TempDesigncondition">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>2180</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Design condition :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="TempOperatingconditionmax">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>2320</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_22">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>2180</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Celsius</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>2110</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Temperature</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="TempOperatingconditionmin">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>2320</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TempOperatingcondition">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>2320</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Operating condition :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_24">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>2270</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Maximum</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Flashpoint_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>2400</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_23">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>2270</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Minimum</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_25">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>2320</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Celsius</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_28">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>2610</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>unit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_33">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>2960</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LLL_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>3100</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Low liquid level :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="minThicknessbyclient_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>3240</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>min. Thickness by client :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Typeofroof_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>2820</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Type of roof :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Frangibleroof_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>2890</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Frangible roof :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Designliquidheight">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>2540</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Designwindspeed_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>2700</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> (3 sec gust wind speed)</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="minAnnularThicknessbyclient">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>3310</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LLLL_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>3170</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>low Low liquid level :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_34">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>3030</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="HHLL">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>2960</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Seismicdesign">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>2750</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Designwindspeed_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>2670</y>
+      <width>331</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Design wind speed :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_29">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>2680</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>m per sec</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="minThicknessbyclient">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>3240</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="LLL">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>3100</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_27">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>2540</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="HLL">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>3030</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Designwindspeed">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>2680</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Typeofroof">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>2820</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_38">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>3310</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="HLL_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>3030</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>High liquid level :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Frangibleroof">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>2890</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Designspecificgravity">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>2610</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Designliquidheight_3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>2540</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Design liquid height :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Seismicdesign_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>2750</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Seismic design :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_35">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>3100</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_37">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>3240</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Designspecificgravity_3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>2610</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Design specific gravity :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="HHLL_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>2960</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>High-high liquid level :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_36">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>3170</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>2470</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Other Design Data</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="LLLL">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>3170</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="minAnnularThicknessbyclient_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>3310</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>min. Annular Thickness by client :</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_14">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>4390</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_13">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>4450</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_12">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>4340</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_11">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>4280</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_10">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>4230</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ShellPlateCourse4Material">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3670</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>A573 Gr.70 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A283 Gr. C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="ShellPlateCourse8CA">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>3890</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ShellPlateCourse3Material">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3610</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>A573 Gr.70 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A283 Gr. C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse5Material_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>3730</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Course 5 :</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ShellPlateCourse1Material">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3490</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>A573 Gr.70 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A283 Gr. C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="ShellPlateCourse6Material">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3780</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>A573 Gr.70 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A283 Gr. C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>3450</y>
+      <width>20</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ShellPlateCourse1CA">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>3490</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ShellPlateCourse5Material">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3730</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>A573 Gr.70 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A283 Gr. C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="ShellPlateCourse7Material">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3840</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>A573 Gr.70 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A283 Gr. C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>3450</y>
+      <width>20</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>3450</y>
+      <width>20</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>72</pointsize>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3440</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ShellPlateCourse2Material">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3550</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>A573 Gr.70 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A283 Gr. C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="ShellPlateCourse2CA">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>3550</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ShellPlateCourse6CA">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>3780</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ShellPlateCourse5CA">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>3730</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Designliquidheight_19">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>3440</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Shell plate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse2Material_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>3550</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Course 2 :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse8Material_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>3890</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Course 8 :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse3Material_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>3610</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Course 3 :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Designliquidheight_20">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>3440</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>materials</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ShellPlateCourse4CA">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>3670</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3600</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ShellPlateCourse3CA">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>3610</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ShellPlateCourse8Material">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3890</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>A573 Gr.70 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A283 Gr. C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="Designliquidheight_21">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>3440</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Corrsion allowances (mm)</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3480</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_15">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3720</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse7Material_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>3840</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Course 7 :</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>3450</y>
+      <width>20</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_16">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3880</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse4Material_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>3670</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Course 4 :</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_17">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3940</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse1Material_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>3490</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Course 1 :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ShellPlateCourse7CA">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>3840</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Line" name="line_18">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3830</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_19">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3770</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse6Material_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>3780</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Course 6 :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateData">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>3380</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Shell Plate Data</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="Line" name="line_9">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3660</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>3540</y>
+      <width>841</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TankDesignCalculator">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>3960</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="OutputPath">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>3960</y>
+      <width>701</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ShellPlateCourse8Material_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>3960</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Output Path :</string>
+    </property>
+   </widget>
+   <zorder>Tanknumber_2</zorder>
+   <zorder>Tanknumber</zorder>
+   <zorder>Desingcode</zorder>
+   <zorder>Tankspecficationdata_2</zorder>
+   <zorder>Typeoftank_2</zorder>
+   <zorder>Itemname</zorder>
+   <zorder>heading</zorder>
+   <zorder>Typeoftank</zorder>
+   <zorder>Tankspecficationdata</zorder>
+   <zorder>Designcode</zorder>
+   <zorder>Itemname_2</zorder>
+   <zorder>Emptyingrate_2</zorder>
+   <zorder>heading_2</zorder>
+   <zorder>Insidediameter</zorder>
+   <zorder>Nominalcapacity_2</zorder>
+   <zorder>unit</zorder>
+   <zorder>unit_7</zorder>
+   <zorder>unit_9</zorder>
+   <zorder>Emptyingrate</zorder>
+   <zorder>unit_5</zorder>
+   <zorder>Nominalcapacity</zorder>
+   <zorder>Htest_2</zorder>
+   <zorder>unit_2</zorder>
+   <zorder>infillingrate</zorder>
+   <zorder>Productdensity20C_2</zorder>
+   <zorder>unit_8</zorder>
+   <zorder>Htest</zorder>
+   <zorder>unit_6</zorder>
+   <zorder>tankheight_2</zorder>
+   <zorder>maximumfillingheight_2</zorder>
+   <zorder>Productdensity20C</zorder>
+   <zorder>infillingrate_2</zorder>
+   <zorder>Slopeatthebottom1_2</zorder>
+   <zorder>Insidediameter_2</zorder>
+   <zorder>Slopeatthebottom1</zorder>
+   <zorder>unit_4</zorder>
+   <zorder>maximumfillingheight</zorder>
+   <zorder>unit_3</zorder>
+   <zorder>tankheight</zorder>
+   <zorder>Ringofsketchplate_2</zorder>
+   <zorder>Roof_2</zorder>
+   <zorder>Roof</zorder>
+   <zorder>heading_3</zorder>
+   <zorder>Shellcourse1_2</zorder>
+   <zorder>Shellcourse2_3</zorder>
+   <zorder>unit_13</zorder>
+   <zorder>unit_10</zorder>
+   <zorder>unit_14</zorder>
+   <zorder>unit_11</zorder>
+   <zorder>unit_12</zorder>
+   <zorder>Shellcourse1</zorder>
+   <zorder>Shellcourse2</zorder>
+   <zorder>bottom</zorder>
+   <zorder>Bottom</zorder>
+   <zorder>Ringofsketchplate</zorder>
+   <zorder>IPDesignconditionKpag</zorder>
+   <zorder>IPDesignconditionmmH2O</zorder>
+   <zorder>unit_18</zorder>
+   <zorder>IPTestcondtionKpag</zorder>
+   <zorder>IPOperatingconditionmmH2O</zorder>
+   <zorder>IPDesigncondition</zorder>
+   <zorder>heading_4</zorder>
+   <zorder>IPOperatingconditionKpag</zorder>
+   <zorder>IPOperatingcondition</zorder>
+   <zorder>unit_19</zorder>
+   <zorder>IPTestcondtion</zorder>
+   <zorder>IPTestcondtionmmH2O</zorder>
+   <zorder>EPDesigncondition</zorder>
+   <zorder>heading_5</zorder>
+   <zorder>EPDesignconditionKpag</zorder>
+   <zorder>unit_21</zorder>
+   <zorder>unit_20</zorder>
+   <zorder>EPOperatingconditionKpag</zorder>
+   <zorder>EPOperatingcondition</zorder>
+   <zorder>EPOperatingconditionmmH2O</zorder>
+   <zorder>EPDesignconditionmmH2O</zorder>
+   <zorder>TempDesigncondition_2</zorder>
+   <zorder>Flashpoint</zorder>
+   <zorder>unit_26</zorder>
+   <zorder>TempDesigncondition</zorder>
+   <zorder>TempOperatingconditionmax</zorder>
+   <zorder>unit_22</zorder>
+   <zorder>label</zorder>
+   <zorder>TempOperatingconditionmin</zorder>
+   <zorder>TempOperatingcondition</zorder>
+   <zorder>unit_24</zorder>
+   <zorder>Flashpoint_2</zorder>
+   <zorder>unit_23</zorder>
+   <zorder>unit_25</zorder>
+   <zorder>unit_28</zorder>
+   <zorder>unit_33</zorder>
+   <zorder>LLL_2</zorder>
+   <zorder>minThicknessbyclient_2</zorder>
+   <zorder>Typeofroof_2</zorder>
+   <zorder>Frangibleroof_2</zorder>
+   <zorder>Designliquidheight</zorder>
+   <zorder>Designwindspeed_3</zorder>
+   <zorder>minAnnularThicknessbyclient</zorder>
+   <zorder>LLLL_2</zorder>
+   <zorder>unit_34</zorder>
+   <zorder>HHLL</zorder>
+   <zorder>Seismicdesign</zorder>
+   <zorder>Designwindspeed_2</zorder>
+   <zorder>unit_29</zorder>
+   <zorder>minThicknessbyclient</zorder>
+   <zorder>LLL</zorder>
+   <zorder>unit_27</zorder>
+   <zorder>HLL</zorder>
+   <zorder>Designwindspeed</zorder>
+   <zorder>Typeofroof</zorder>
+   <zorder>unit_38</zorder>
+   <zorder>HLL_2</zorder>
+   <zorder>Frangibleroof</zorder>
+   <zorder>Designspecificgravity</zorder>
+   <zorder>Designliquidheight_3</zorder>
+   <zorder>Seismicdesign_2</zorder>
+   <zorder>unit_35</zorder>
+   <zorder>unit_37</zorder>
+   <zorder>Designspecificgravity_3</zorder>
+   <zorder>HHLL_2</zorder>
+   <zorder>unit_36</zorder>
+   <zorder>label_2</zorder>
+   <zorder>LLLL</zorder>
+   <zorder>minAnnularThicknessbyclient_2</zorder>
+   <zorder>line_14</zorder>
+   <zorder>line_13</zorder>
+   <zorder>line_12</zorder>
+   <zorder>line_11</zorder>
+   <zorder>line_10</zorder>
+   <zorder>ShellPlateCourse4Material</zorder>
+   <zorder>ShellPlateCourse8CA</zorder>
+   <zorder>ShellPlateCourse3Material</zorder>
+   <zorder>ShellPlateCourse5Material_2</zorder>
+   <zorder>ShellPlateCourse1Material</zorder>
+   <zorder>ShellPlateCourse6Material</zorder>
+   <zorder>ShellPlateCourse1CA</zorder>
+   <zorder>ShellPlateCourse5Material</zorder>
+   <zorder>ShellPlateCourse7Material</zorder>
+   <zorder>line_3</zorder>
+   <zorder>line</zorder>
+   <zorder>line_2</zorder>
+   <zorder>ShellPlateCourse2Material</zorder>
+   <zorder>ShellPlateCourse2CA</zorder>
+   <zorder>ShellPlateCourse6CA</zorder>
+   <zorder>ShellPlateCourse5CA</zorder>
+   <zorder>Designliquidheight_19</zorder>
+   <zorder>ShellPlateCourse2Material_2</zorder>
+   <zorder>ShellPlateCourse8Material_2</zorder>
+   <zorder>ShellPlateCourse3Material_2</zorder>
+   <zorder>Designliquidheight_20</zorder>
+   <zorder>ShellPlateCourse4CA</zorder>
+   <zorder>line_8</zorder>
+   <zorder>ShellPlateCourse3CA</zorder>
+   <zorder>ShellPlateCourse8Material</zorder>
+   <zorder>Designliquidheight_21</zorder>
+   <zorder>line_6</zorder>
+   <zorder>line_15</zorder>
+   <zorder>ShellPlateCourse7Material_2</zorder>
+   <zorder>line_5</zorder>
+   <zorder>line_16</zorder>
+   <zorder>ShellPlateCourse4Material_2</zorder>
+   <zorder>line_17</zorder>
+   <zorder>ShellPlateCourse1Material_2</zorder>
+   <zorder>ShellPlateCourse7CA</zorder>
+   <zorder>line_18</zorder>
+   <zorder>line_19</zorder>
+   <zorder>ShellPlateCourse6Material_2</zorder>
+   <zorder>ShellPlateData</zorder>
+   <zorder>line_9</zorder>
+   <zorder>line_7</zorder>
+   <zorder>line_4</zorder>
+   <zorder>TankDesignCalculator</zorder>
+   <zorder>OutputPath</zorder>
+   <zorder>ShellPlateCourse8Material_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1255</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
